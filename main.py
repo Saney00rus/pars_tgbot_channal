@@ -41,7 +41,6 @@ def parsbot():
             except Exception:
                 print('Ошибка... (avito_link)')
                 print('Restart bot...')
-                bot.send_message(chat_me, 'При работе бота произошла ошибка... Перезапуск...')
                 parsbot()
 
             try:
