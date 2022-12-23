@@ -120,7 +120,8 @@ def parsbot():
 if __name__ == '__main__':
     bot = telebot.TeleBot(token)
     chat_me = '167749311'  # Мой
-    chat_id = '-1001807362385' # Канал
+    chat_id = '-1001857902932' # Тестовый
+    # chat_id = '-1001807362385' # Канал
     bot.send_message(chat_id, 'Бот запущен!')
     print("_____Bot is running_____")
     while True:
