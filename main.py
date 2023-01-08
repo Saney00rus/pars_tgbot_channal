@@ -29,8 +29,8 @@ def parsbot():
 
     def avito():
         cont = True
-        avito_link = 'https://www.avito.ru/moskva/avtomobili/do-300000-rubley' \
-                     '-ASgCAgECAUXGmgwWeyJmcm9tIjowLCJ0byI6MzAwMDAwfQ?radius=300&s=104 '
+        avito_link = 'https://www.avito.ru/moskva/avtomobili?f=ASgCAgECAUXGmgwWeyJmcm9tIjowLCJ0byI6MjMwMDAwfQ&radius' \
+                     '=300&s=104 '
         x = 1
         while cont == True:
             y = str(x)
